@@ -1,0 +1,14 @@
+@import '../utility/mixin';
+
+.c-content{
+    @include flexCenter(row);
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding: 10px 4px;
+
+    &__desc{
+        font-size: 14px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+}

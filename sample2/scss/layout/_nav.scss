@@ -1,0 +1,31 @@
+.l-nav{
+    @include flexCenter(row);
+    background-color:$lightgreen;
+
+    &__item{
+        margin: 0 2px;
+        width:widthCalc(6);
+
+        &:first-child{
+            margin-left: 0;
+        }
+
+        &:last-child{
+            margin-right: 0;
+        }
+
+        >a{
+            display: block;
+            padding: 15px 5px;
+            color:blue;
+            font-size: 13px;
+            background-color:#fff;
+            text-align:center;
+            font-weight: bold;
+
+            &:hover{
+                color:rgb(255,0,200)
+            }
+        }
+    }
+}

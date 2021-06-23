@@ -1,0 +1,27 @@
+.p-topic{
+    text-align:center;
+    font-size: 14px;
+
+    &__title{
+        background-color: $navy;
+        color:#fff;
+        padding: 1px;
+        font-weight: bold;
+    }
+
+    &__nav{
+        @include flexCenter(column);
+
+        &__item{
+            margin-bottom: 20px;
+
+            &:first-child{
+                margin-top: 15px;
+            }
+
+            > a{
+                color:#000;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import 'foundation/reset';
+@import 'foundation/foundation';
+@import 'object/utility/mixin';
+
+
+.wrapper{
+    width: 55%;
+    margin: 0 auto;
+    background-color:$nature;
+    padding: 30px;
+    
+}
+
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+
+@import 'object/component/content';
+@import 'object/project/topic';

@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 55%;
+  margin: 0 auto;
+  background-color: #f8eaaa;
+  padding: 30px;
+}
+
+.l-header {
+  background: url("../images/main.jpg") left top no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.l-header__title {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.l-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #8eff8e;
+}
+
+.l-nav__item {
+  margin: 0 2px;
+  width: 16.66667%;
+}
+
+.l-nav__item:first-child {
+  margin-left: 0;
+}
+
+.l-nav__item:last-child {
+  margin-right: 0;
+}
+
+.l-nav__item > a {
+  display: block;
+  padding: 15px 5px;
+  color: blue;
+  font-size: 13px;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.l-nav__item > a:hover {
+  color: #ff00c8;
+}
+
+.l-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #00c100;
+  padding: 0 0 20px;
+}
+
+.l-content__main {
+  width: 70%;
+  padding: 10px 5px;
+  background-color: #fcf6d9;
+}
+
+.l-content__main__title {
+  font-size: 15px;
+  color: #fff;
+  background: #399;
+  padding: 5px 3px;
+}
+
+.l-content__sidebar {
+  width: 25%;
+  background-color: #8eff8e;
+  padding: 20px 0 30px 0;
+}
+
+.l-footer {
+  text-align: center;
+  background-color: #008e00;
+}
+
+.l-footer__copyright {
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.c-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 10px 4px;
+}
+
+.c-content__desc {
+  font-size: 14px;
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.p-topic {
+  text-align: center;
+  font-size: 14px;
+}
+
+.p-topic__title {
+  background-color: #399;
+  color: #fff;
+  padding: 1px;
+  font-weight: bold;
+}
+
+.p-topic__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-topic__nav__item {
+  margin-bottom: 20px;
+}
+
+.p-topic__nav__item:first-child {
+  margin-top: 15px;
+}
+
+.p-topic__nav__item > a {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */

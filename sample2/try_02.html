@@ -3,67 +3,65 @@
 <head>
 <meta charset="utf-8">
 <title>try_02</title>
-<link rel="stylesheet" href="main_02Les.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="wrapper">
-  <header>
-    <h1>Homepage Title</h1>
-  </header>
-  <nav id="nav-wrapper">
-    <ul class="gnav cf">
-      <!-- nav要素 -->
-      <li><a href="#">メニューのリンク１</a></li>
-      <li><a href="#">メニューのリンク２</a></li>
-      <li><a href="#">メニューのリンク３</a></li>
-      <li><a href="#">メニューのリンク４</a></li>
-      <li><a href="#">メニューのリンク５</a></li>
-      <li><a href="#">メニューのリンク６</a></li>
-    </ul>
-  </nav>
-  <div id="bottom-wrapper" class="cf">
-    <aside id="news-wrapper">
-      <h2>今日のニュース</h2>
-      <!-- aside要素 -->
-      <ol>
-        <li>トップニュース</li>
-        <li>出来事その２</li>
-        <li>出来事その３</li>
-        <li>出来事その４</li>
-        <li>出来事その５</li>
-      </ol>
-    </aside>
-    <main id="content-wrapper">
-      <section class="content cf"><!-- main要素 -->
-        <h3>コンテンツのタイトル</h3>
-        <!-- section要素 -->
-        <p> コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。 </p>
-        <p class="photo_right"><img src="images/green01.jpg" width="150" height="100" alt="草原の写真"></p>
-      </section>
-      <section class="content">
-        <h3>コンテンツのタイトル</h3>
-        <!-- section要素 -->
-        <p> コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。
-          コンテンツの本文を記述します。コンテンツの本文を記述します。 </p>
-        <p class="photo_right"><img src="images/green02.jpg" width="150" height="100" alt="緑のイメージ写真"></p>
-      </section>
-    </main>
+  <div class="wrapper">
+    <header class="l-header">
+      <h1 class="l-header__title">HomePage Title</h1>
+    </header>
+    <nav>
+      <ul class="l-nav c-nav">
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク1</a></li>
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク2</a></li>
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク3</a></li>
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク4</a></li>
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク5</a></li>
+        <li class="l-nav__item c-nav__item"><a href="" class="l-nav__item__text">メニューへの<br>リンク6</a></li>
+      </ul>
+    </nav>
+
+    <div class="l-content">
+      <div class="l-content__main">
+        <h2 class="l-content__main__title">コンテンツのタイトル</h2>
+        <div class="c-content">
+          <p class="c-content__desc">コンテンツの本文を記述します。コンテンツの本文を記述します。 コンテンツの本文を記述します。
+          コンテンツの本文を記述します。 コンテンツの本文を記述します。コンテンツの本文を記述します。 
+          コンテンツの本文を記述します。コンテンツの本文を記述します。 コンテンツの本文を記述します。
+          コンテンツの本文を記述します。 コンテンツの本文を記述します。コンテンツの本文を記述します。 
+          コンテンツの本文を記述します。コンテンツの本文を記述します。</p>
+          <div class="c-content__img">
+            <img src="images/green01.jpg" alt="">
+          </div>
+        </div>
+        <h2 class="l-content__main__title">コンテンツのタイトル</h2>
+        <div class="c-content">
+          <p class="c-content__desc">コンテンツの本文を記述します。コンテンツの本文を記述します。 コンテンツの本文を記述します。
+          コンテンツの本文を記述します。 コンテンツの本文を記述します。コンテンツの本文を記述します。 
+          コンテンツの本文を記述します。コンテンツの本文を記述します。 コンテンツの本文を記述します。
+          コンテンツの本文を記述します。 コンテンツの本文を記述します。コンテンツの本文を記述します。 
+          コンテンツの本文を記述します。コンテンツの本文を記述します。</p>
+          <div class="c-content__img">
+            <img src="images/green02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <aside class="l-content__sidebar p-topic">
+        <p class="l-content__sidebar__title p-topic__title">今日のニュース</p>
+        <ol class="c-article-list__nav p-topic__nav">
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">トップニュース</a></li>
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">出来事1</a></li>
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">出来事2</a></li>
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">出来事3</a></li>
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">出来事4</a></li>
+          <li class="c-article-list__nav__item p-topic__nav__item"><a href="">出来事5</a></li>
+        </ol>
+      </aside>
+    </div>
+    <footer class="l-footer">
+      <p class="l-footer__copyright">Copyright (C) AUTHOR NAME, All Rights Reserved.</p>
+    </footer>
   </div>
-  <footer>
-    <p>Copyright (C) AUTHOR NAME, All Rights Reserved.</p>
-    <!-- small要素 --> 
-  </footer>
-</div>
+
 </body>
 </html>

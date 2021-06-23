@@ -1,0 +1,15 @@
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@function widthCalc($number){
+    @return 100% / $number;
+}
+
+$nature : #f8eaaa;
+$lightgreen : #8eff8e;
+$navy:#399;
+
