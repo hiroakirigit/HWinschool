@@ -12,9 +12,10 @@ body{
     background-color:pink;
 }
 .wrapper{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     background: $baseColor;
+    padding: 0 30px;
 }
 @import 'layout/header';
 @import 'layout/main';

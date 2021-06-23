@@ -3,15 +3,14 @@
     @include flexCenter(column);
     align-items: flex-end;
     background:url('../images/flower.jpg') left center no-repeat;
-    padding: 10px;
     padding-bottom: 0;
-    border-bottom:4px solid rgb(228, 17, 158);
+    border-bottom:3px solid rgb(228, 17, 158);
 }
 
 .l-header__title{
     font-size: 40px;
 }
 .l-header__text{
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 

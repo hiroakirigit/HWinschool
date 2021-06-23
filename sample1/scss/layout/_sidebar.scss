@@ -1,0 +1,40 @@
+.p-sidebar{
+    border:1px solid rgb(253, 111, 253);
+    
+    &__title{
+        padding: 4px;
+        background-color:rgb(253, 111, 253);
+        color:#fff;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    &__nav{
+        @include flexCenter(column);
+        
+        &__item{
+            margin-bottom: 20px;
+            width: 100%;
+            text-align:center;
+
+  
+            &::before{
+                content:url('../images/mark_pink.gif');
+                margin-left: -10px;
+            }
+
+            &:first-child{
+                margin-top: 10px;
+            }
+            
+            &>a{
+                font-size: 14px;
+                color:rgb(241, 21, 241);
+                padding-left: 1em;
+                margin-left: -10px;
+            }
+        }
+    }
+
+
+}
