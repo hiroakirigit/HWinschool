@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: pink;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  background: white;
+}
+
+.l-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  background: url("../../images/flower.jpg") left center no-repeat;
+  padding: 10px;
+  padding-bottom: 0;
+  border-bottom: 4px solid #e4119e;
+}
+
+.l-header__title {
+  font-size: 40px;
+}
+
+.l-header__text {
+  margin-bottom: 10rem;
+}
+
+.l-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.l-content__main {
+  width: 70%;
+}
+
+.l-content__main__title {
+  font-size: 20px;
+  padding-left: 5em;
+}
+
+.l-content__main__title::before {
+  content: "";
+  background: url("../../images/mark_flower.gif") left top no-repeat;
+}
+
+.l-footer {
+  background: #cccccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.l-footer__text {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

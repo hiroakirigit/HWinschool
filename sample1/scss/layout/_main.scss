@@ -1,0 +1,20 @@
+.l-content{
+    @include flexCenter(row);
+    justify-content: space-between;
+    margin-top: 15px;
+    &__main{
+        width: 70%;
+
+        &__title{
+            font-size: 20px;
+            padding-left: 5em;
+
+            &::before{
+                content:"";
+
+                background: url('../images/mark_flower.gif') left top no-repeat;
+            }
+        }
+    }
+}
+
