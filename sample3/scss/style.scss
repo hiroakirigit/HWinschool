@@ -1,0 +1,35 @@
+/*---foundation---*/
+
+@import 'foundation/base';
+@import 'foundation/variables';
+
+
+.wrapper{
+    background-color: $basecolor;
+    width: 800px;
+    margin: 0 auto;
+}
+/*---layout---*/
+
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/footer';
+
+/*---component---*/
+
+
+
+/*---project---*/
+
+@import 'object/project/nav';
+@import 'object/project/main';
+
+
+/*---utility---*/
+
+@import 'object/utility/background';
+@import 'object/utility/padding';
+@import 'object/utility/margin';
+@import 'object/utility/position';
+@import 'object/utility/z-index';

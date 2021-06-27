@@ -1,0 +1,17 @@
+.l-header{
+    width: 100%;
+    color:lighten($basecolor,90%);
+    background: url('../images/plant_top.jpg') top center no-repeat;
+
+    &__title{
+        font-family: serif;
+        font-size: 40px;
+        padding-left: 40px;
+        padding-top: 50px;
+    
+        &__sub{
+            padding-bottom: 195px;
+            padding-left: 40px;
+        }
+    }
+}

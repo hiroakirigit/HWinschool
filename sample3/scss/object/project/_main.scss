@@ -1,0 +1,40 @@
+.p-main{
+    &__inner{
+        @include flexCenter(row);
+        align-items:flex-start;
+        margin:20px 15px 0;
+
+        &:nth-of-type(2){
+            @extend .p-main__inner;
+            flex-direction:row-reverse;
+            margin-top: 60px;
+
+            >.p-main__inner__content{
+                padding-right: 0;
+                padding-left: 20px;
+            }
+        }
+
+        &__content{
+            padding-right: 20px;
+
+            &__title{
+                font-size: 18px;
+                color:#fff;
+                background:$basecolor;
+                padding: 10px;
+            }
+
+            &__desc{
+                margin-top: 25px;
+                text-align:justify;
+            }
+        }
+    }
+
+
+
+    &__content{
+        margin-right: 20px;
+    }
+}

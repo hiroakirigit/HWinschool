@@ -1,0 +1,9 @@
+$basecolor:#000;
+$secondary-color:green;
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:$direction;
+}

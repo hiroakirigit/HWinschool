@@ -1,0 +1,17 @@
+.p-nav{
+    @include flexCenter(row);
+    justify-content:flex-start;
+    padding-top: 20px;
+
+    &__item{
+        list-style:none;
+        margin-right: 10px;
+    }
+
+    &__link{
+        color:#000;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
