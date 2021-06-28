@@ -1,0 +1,10 @@
+.l-main{
+    background-color: #fff;
+    padding: 25px 20px;
+    @include flexCenter(row);
+    align-items: flex-start;
+
+    &__content{
+        width: 70%;
+    }
+}

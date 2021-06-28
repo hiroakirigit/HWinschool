@@ -1,0 +1,16 @@
+.l-header{
+    background-color:$baseColor;
+
+
+    &__title{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px 0  15px 20px;
+    }
+
+    &__subtitle{
+        font-size: 18px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+    }
+}

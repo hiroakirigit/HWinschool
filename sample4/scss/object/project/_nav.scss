@@ -1,0 +1,14 @@
+.p-nav{
+    @include flexCenter(row);
+
+    &__item{
+        width: 20%;
+        background:url('../images/gr_20170220.png');
+        border:1px solid #aaa;
+    }
+
+    &__link{
+        display: block;
+        text-align:center;
+    }
+}

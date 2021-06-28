@@ -1,0 +1,169 @@
+/**
+ * Foundation
+ * ========================== */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #444;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/**
+ * Layout
+ * ========================== */
+.l-footer {
+  text-align: center;
+  background-color: #ffd700;
+}
+
+.l-footer__copyright {
+  padding: 20px;
+}
+
+.l-header {
+  background-color: #ffd700;
+}
+
+.l-header__title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 0  15px 20px;
+}
+
+.l-header__subtitle {
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.l-main {
+  background-color: #fff;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.l-main__content {
+  width: 70%;
+}
+
+.l-sidebar {
+  padding: 10px;
+  width: 30%;
+}
+
+.l-sidebar__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.l-sidebar__link {
+  margin-bottom: 2px;
+}
+
+/* Object
+ * ========================== */
+/* Component ------------ */
+.c-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.c-gallery__item {
+  width: calc(33.3333% - 10px);
+  border: 2px solid #aaa;
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.c-gallery__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.c-gallery__item > img {
+  margin: 0 auto;
+  display: block;
+}
+
+.c-gallery__item > figcaption {
+  text-align: center;
+}
+
+.c-nav--black {
+  color: #000;
+}
+
+.c-nav--white {
+  color: #fff;
+}
+
+.c-nav__link {
+  display: block;
+  padding: 10px 15px;
+}
+
+/* Project ------------ */
+.p-article__title {
+  font-weight: bold;
+  font-size: 20px;
+  background: #ffd700;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+
+.p-article__desc {
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+.p-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.p-nav__item {
+  width: 20%;
+  background: url("../images/gr_20170220.png");
+  border: 1px solid #aaa;
+}
+
+.p-nav__link {
+  display: block;
+  text-align: center;
+}
+
+/* Utility ------------ */
+.u-fz-regular {
+  font-size: 14px;
+}
+
+.u-fz-small {
+  font-size: 10px;
+}
+
+.bg-green {
+  background: #393;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+/**
+ * Foundation
+ * ========================== */
+
+ @import 'foundation/base';
+ @import 'foundation/mixin';
+ @import 'foundation/variables';
+
+
+body{
+    background-color: #444;
+}
+
+ .wrapper{
+     width: 800px;
+     margin: 0 auto;
+ }
+/**
+ * Layout
+ * ========================== */
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/sidebar' ;
+
+
+
+/* Object
+ * ========================== */
+
+
+/* Component ------------ */
+@import 'object/component/button';
+@import 'object/component/gallery';
+@import 'object/component/nav';
+
+
+/* Project ------------ */
+@import 'object/project/article';
+@import 'object/project/nav';
+
+
+/* Utility ------------ */
+@import 'object/utility/font-size';
+@import 'object/utility/background';
+
+
